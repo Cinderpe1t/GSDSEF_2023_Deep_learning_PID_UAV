@@ -3,7 +3,8 @@
 - Improved results presented at IEEE HORA 2023 conference
 ## Codes
 - `sonoma_raceway.world`: Gazebo world and wind set up
-- `RL_agent_px4_v04_all_v05.ipynb`: Mission controller Python code to train DRL
+- `RL_agent_px4_v04_all_v05_r2.ipynb`: Mission controller Python code to train DRL. All PID coefficient training case.
+- It requires px4 simulation in the loop, Gazebo physics simulator, and optionally QGroundControl.
 ## Wind plug-in set up with 5m/s average speed
 ```
     <plugin name='wind_plugin' filename='libgazebo_wind_plugin.so'>
