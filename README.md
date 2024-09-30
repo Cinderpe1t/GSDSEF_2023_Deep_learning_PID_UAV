@@ -4,8 +4,8 @@
 ## Codes
 - `sonoma_raceway.world`: Gazebo world and wind set up
 - `RL_agent_px4_v04_all_v05_r2.ipynb`: Mission controller Python code to train DRL. All PID coefficient training case.
-- It requires px4 simulation in the loop, Gazebo physics simulator, and optionally QGroundControl.
-## Wind plug-in set up with 5m/s average speed
+- It requires px4 simulation in the loop and Gazebo physics simulator running. A QGroundControl can monitor the UAV indepenedently.
+## Wind plug-in set up with 5m/s average speed in `sonoma_raceway.world`
 ```
     <plugin name='wind_plugin' filename='libgazebo_wind_plugin.so'>
       <frameId>base_link</frameId>
