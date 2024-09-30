@@ -25,3 +25,5 @@
       <windPubTopic>world_wind</windPubTopic>
     </plugin>
 ```
+## Training screenshot
+![DRL PX4 training screen shot](https://github.com/Cinderpe1t/GSDSEF_2023_Deep_learning_PID_UAV/blob/main/DRL_QGC_Gazebo_screenshot.png)
